@@ -49,7 +49,7 @@ function rentPriceCalculator_rent_ingolstadt() {
 }
 
 function rentPriceCalculator_rent_darmstadt() {
-    let frankfurt = parseInt(document.getElementById("rpc-square-meters-input").value) * 11.97
+    let darmstadt = parseInt(document.getElementById("rpc-square-meters-input").value) * 11.97
     let rent = darmstadt.toFixed(2).replace('.', ',')
     document.getElementById("rpc-city").innerHTML = `The rent in Darmstadt costs about ${rent} euros.`
 }
