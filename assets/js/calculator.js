@@ -2,52 +2,62 @@
 
 function rentPriceCalculator_rent_berlin() {
     let berlin = parseInt(document.getElementById("rpc-square-meters-input").value) * 12.32
-    document.getElementById("rpc-city").innerHTML = `The rent in Berlin costs about ${berlin} euros.`
+    let rent = berlin.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Berlin costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_munich() {
     let munich = parseInt(document.getElementById("rpc-square-meters-input").value) * 17.71
-    document.getElementById("rpc-city").innerHTML = `The rent in Munich costs about ${munich} euros.`
+    let rent = munich.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Munich costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_hamburg() {
     let hamburg = parseInt(document.getElementById("rpc-square-meters-input").value) * 11.93
-    document.getElementById("rpc-city").innerHTML = `The rent in Hamburg costs about ${hamburg} euros.`
+    let rent = hamburg.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Hamburg costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_frankfurt() {
     let frankfurt = parseInt(document.getElementById("rpc-square-meters-input").value) * 14.00
-    document.getElementById("rpc-city").innerHTML = `The rent in Frankfurt costs about ${frankfurt} euros.`
+    let rent = frankfurt.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Frankfurt costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_stuttgart() {
     let stuttgart = parseInt(document.getElementById("rpc-square-meters-input").value) * 13.70
-    document.getElementById("rpc-city").innerHTML = `The rent in Stuttgart costs about ${stuttgart} euros.`
+    let rent = stuttgart.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Stuttgart costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_freiburg() {
     let freiburg = parseInt(document.getElementById("rpc-square-meters-input").value) * 12.11
-    document.getElementById("rpc-city").innerHTML = `The rent in freiburg costs about ${freiburg} euros.`
+    let rent = freiburg.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in freiburg costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_mainz() {
     let mainz = parseInt(document.getElementById("rpc-square-meters-input").value) * 12.10
-    document.getElementById("rpc-city").innerHTML = `The rent in Mainz costs about ${mainz} euros.`
+    let rent = mainz.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Mainz costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_ingolstadt() {
     let ingolstadt = parseInt(document.getElementById("rpc-square-meters-input").value) * 12.02
-    document.getElementById("rpc-city").innerHTML = `The rent in Ingolstadt costs about ${ingolstadt} euros.`
+    let rent = ingolstadt.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Ingolstadt costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_darmstadt() {
     let frankfurt = parseInt(document.getElementById("rpc-square-meters-input").value) * 11.97
-    document.getElementById("rpc-city").innerHTML = `The rent in Darmstadt costs about ${darmstadt} euros.`
+    let rent = darmstadt.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Darmstadt costs about ${rent} euros.`
 }
 
 function rentPriceCalculator_rent_wiesbaden() {
     let wiesbaden = parseInt(document.getElementById("rpc-square-meters-input").value) * 11.97
-    document.getElementById("rpc-city").innerHTML = `The rent in Wiesbaden costs about ${wiesbaden} euros.`
+    let rent = wiesbaden.toFixed(2).replace('.', ',')
+    document.getElementById("rpc-city").innerHTML = `The rent in Wiesbaden costs about ${rent} euros.`
 }
 
 
