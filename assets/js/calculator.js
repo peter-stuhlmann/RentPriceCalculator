@@ -3,7 +3,8 @@
 const rentPriceCalculator_calculate = (city, PricePerSquareMeter) => {
     let rent = parseInt(document.getElementById("rpc-square-meters-input").value) * PricePerSquareMeter
     rent = rent.toFixed(2).replace('.', ',')
-    document.getElementById("rpc-city").innerHTML = `The rent in ${city} costs about ${rent} euros.`
+    let squareMeter = parseInt(document.getElementById("rpc-square-meters-input").value)
+    document.getElementById("rpc-city").innerHTML = `The rent for a ${squareMeter} square meter apartment in ${city} costs about ${rent} euros.`
 }
 
 
