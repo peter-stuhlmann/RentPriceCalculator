@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/partials/_variables.scss",
+		"../scss/partials/_layout.scss"
+	],
+	"sourcesContent": [
+		"@import \"partials/variables\";\n@import \"partials/layout\";",
+		"$primaryColor: hotpink;\n\n$tertiaryColor: #fff;",
+		"body {\n    background-color: $primaryColor\n}\n\nmain {\n    width: 100%;\n    max-width: 1000px;\n    min-height: 80vh;\n    margin: 30px auto;\n    padding: 30px 15px;\n    border-radius: 8px;\n    background-color: $tertiaryColor\n}\n\n\n#rpc-city {\n    margin: 40px 0\n}"
+	],
+	"names": [],
+	"mappings": "AEAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EDDL,OAAO,GCErB;;AAED,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,GAAG;EAClB,gBAAgB,EDTJ,IAAI,GCUnB;;AAGD,AAAA,SAAS,CAAC;EACN,MAAM,EAAE,MACZ,GAAC"
+}

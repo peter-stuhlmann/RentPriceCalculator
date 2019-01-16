@@ -1,0 +1,19 @@
+body {
+    background-color: $primaryColor
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 80vh;
+    margin: 30px auto;
+    padding: 30px 15px;
+    border-radius: 8px;
+    background-color: $tertiaryColor;
+    color: $secondaryColor
+}
+
+
+#rpc-city {
+    margin: 40px 0
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: hotpink; }
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  min-height: 80vh;
+  margin: 30px auto;
+  padding: 30px 15px;
+  border-radius: 8px;
+  background-color: #fff; }
+
+#rpc-city {
+  margin: 40px 0; }
+
+/*# sourceMappingURL=style.css.map */
